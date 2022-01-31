@@ -7,5 +7,6 @@ np_city = np.column_stack((height, weight))
 
 print(np_city)
 
-
-
+print(f"Gemiddelde lengte is {np.round(np.mean(np_city[:,0]), 2)}")
+print(f"Mediaan lengte is {np.round(np.median(np_city[:,0]), 2)}")
+print(f"Standaarddeviatie voor lengte is {np.round(np.std(np_city[:,0]), 2)}")
